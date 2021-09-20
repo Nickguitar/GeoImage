@@ -8,7 +8,7 @@
 
 $api = "YOUR_API_KEY_HERE";
 
-if(!isset($arrv[1])) die("Usage: ./geoimage.php image.jpg");
+if(!isset($argv[1])) die("Usage: ./geoimage.php image.jpg");
 
 //string fraction to float
 function frac($frac){
